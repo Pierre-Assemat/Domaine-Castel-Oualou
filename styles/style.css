@@ -1,0 +1,126 @@
+section#presentation{
+	background-image : url("../img/vignes/vignoble_modif.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+section#produit{
+	background-image : url("../img/vins/rouge.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 104vh;
+}
+div.fond_text{
+	background-color:rgb(10,10,10);
+	width: 50%;
+	margin-left: 70px;
+	padding-bottom: 10px;
+	opacity: .8;
+	border-radius: 10px;
+}
+div#pres_text{
+	margin-top: 5vh;
+}
+div#middle_up{
+	min-height: 50vh;
+}
+.fond_text p,.fond_text h1{ 
+	color: white;
+ }
+
+.buttons{
+	width: 50%;
+	height: 40px;
+	margin: auto;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-around;
+}
+.select_button{
+	background-color: white;
+	border-radius: 50px;
+	margin: 5px 15px 0 15px;
+	width: 30px;
+	height: 30px;
+    opacity: .8;
+}
+.button{
+	margin: 10px 20px 0 20px;
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border-radius: 50px;
+	opacity: .4;
+}
+.button:hover{
+	margin: 5px 15px 0 15px;
+	width: 30px;
+	height: 30px;
+    opacity: .8;
+}
+
+#pres_bouteille{
+	min-width: 850px;
+	min-height: 330px;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 35px;
+	padding-bottom: 35px;
+}
+#pres_bouteille div{
+	min-width: 25%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+}
+.section_bouteille_slc{
+	min-width: 100%;
+}
+.bouteille{
+	padding:2vh 2vh 3vh 3vh;
+	height: 300px;
+	width: 85px;
+}
+.bouteille:hover{
+	padding: 1vh 1vh 2vh 2vh;
+	height:310px;
+	width:95px;
+}
+.bouteille_info{
+	display: block;
+	margin-left: 100px;
+	min-width: 200px;
+	max-width: 200px;
+	max-height: 350px;
+	background-color:black;
+	opacity: .8;
+	border-radius: 10px;
+	color: white;
+}
+.bouteille_info p{
+	padding: 10px 10px 10px 10px;
+}
+.return{
+	position: relative;
+	bottom: -290px;
+	left: -88px;
+	max-height: 25px;
+	border-radius: 70px;
+}
+
+ div.text_sans_fond{
+ 	width: 50%;
+	margin-left: 70px;
+ }
+#fin{
+	text-align: center;
+	font-size:0.8em;
+}
+
+iframe{
+	margin: 5vh 10vw 10vh 10vw;
+	position: center;
+}

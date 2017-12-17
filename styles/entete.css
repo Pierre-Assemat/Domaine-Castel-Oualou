@@ -1,0 +1,55 @@
+div#entete{
+	display: flex;
+	justify-content: space-around;
+	font-size: 3em;
+	background-color: rgb(140,50,60); /*  bordeau */
+	width: 100%;
+	height: 200px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+div#entete p#vignoble{
+	margin-top: 80px;
+	/* Ajouter pour titre*/
+}
+
+div#entete img#logo{
+	margin-top: 35px;
+	height: 135px;
+	width: 200px;
+}
+
+div#entete img#cave{
+	margin-top: 35px;
+	height: 135px;
+	width: 200px;	
+}
+
+nav#menu{
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	padding-top: 14px;
+}
+
+div.rubrique{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+nav a:link, a:visited{
+	
+	border: 2px solid rgb(140,50,60);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 14px 25px;
+	text-decoration: none;
+    text-align: center;
+	color: black;
+	transition-duration: .4s;
+
+}
+a:hover{
+	background-color: rgb(140,50,60);
+}

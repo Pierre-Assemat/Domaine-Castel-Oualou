@@ -1,0 +1,44 @@
+body{
+	font-family: "Source Sans Pro",sans-serif;
+	background-image : url(../img/fond/fond.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#bloc_page{
+	width: 80%;
+	min-width: 850px; /* Permet de cut la page si trop petit */
+	max-width: 1600px;
+	margin : auto;
+	border-radius: 10px;
+}
+
+.page_sans_fond{
+	background: white;
+	opacity: .85;
+}
+#page_sans_fond_haut{	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	min-height: inherit;
+}
+
+#page_sans_fond_bas{	
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	min-height: inherit;
+}
+
+section.corps{
+	min-height: 100vh;
+	padding: 3vh 0 3vh 0;
+}
+section.corps article{
+	padding: 30px 30px 0px 30px;
+	text-align: justify;
+	margin: 0 0 30px 0;
+}
+section.corps h1{
+	padding: 0px 30px 0px 30px;
+}
